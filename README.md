@@ -1,62 +1,101 @@
 <img width="1713" height="952" alt="image" src="https://github.com/user-attachments/assets/4a181d7b-ba73-45da-ad72-6a22214e1332" />
 
-# Portfolio
 
+# Portfólio Pessoal - João Murilo
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+Portfólio pessoal desenvolvido com Angular, apresentando projetos, habilidades e informações profissionais de forma moderna e profissional.
 
-## Development server
+## 🚀 Tecnologias
 
-To start a local development server, run:
+* **Angular** - Framework para construção de aplicações web
+* **TypeScript** - Superset do JavaScript com tipagem estática
+* **Angular CLI** - Ferramenta oficial para desenvolvimento Angular
+* **HTML5 & CSS3** - Estruturação e estilização
+* **RxJS** - Programação reativa
+
+## 📋 Pré-requisitos
+
+Antes de começar, você precisa ter instalado em sua máquina:
+
+* Node.js (versão 16 ou superior)
+* npm ou yarn
+* Angular CLI (`npm install -g @angular/cli`)
+
+## 🛠️ Instalação
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/JoaoMuriloPO/seu-novo-portfolio.git
+cd seu-novo-portfolio
+```
+
+2. Instale as dependências:
+
+```bash
+npm install
+```
+
+ou
+
+```bash
+yarn install
+```
+
+## 🎯 Como Executar
+
+### Modo de Desenvolvimento
+
+Para executar o projeto em modo de desenvolvimento:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+A aplicação estará disponível em `http://localhost:4200/`
 
-## Code scaffolding
+### Build para Produção
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+Para criar uma build de produção:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Os arquivos otimizados estarão na pasta `dist/`
 
-## Running unit tests
+### Preview da Build
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+Após gerar a build, você pode servir os arquivos com:
 
 ```bash
-ng e2e
+npx serve dist/
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 🎨 Características
 
-## Additional Resources
+* ✅ Design minimalista e profissional
+* ✅ Tema escuro
+* ✅ Totalmente responsivo (mobile e desktop)
+* ✅ Navegação suave
+* ✅ Componentes reutilizáveis
+* ✅ Arquitetura baseada em componentes (Angular)
+* ✅ Código limpo e organizado
+* ✅ Pronto para deploy
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 📱 Seções
+
+1. **Home (Hero)** - Apresentação inicial
+2. **Sobre Mim** - Informações pessoais e experiência profissional
+3. **Projetos** - Portfólio de projetos desenvolvidos
+4. **Skills** - Habilidades técnicas e ferramentas
+5. **Contato** - Informações de contato e redes sociais
+6. **Footer** - Rodapé com informações adicionais
+
+## 👤 Autor
+
+**João Murilo Pereira de Oliveira**
+
+* Email: [j.murilo.mobile@gmail.com](mailto:j.murilo.mobile@gmail.com)
+* LinkedIn: [joaomurilopoo](https://www.linkedin.com/in/joaomurilopoo/)
+* GitHub: [JoaoMuriloPO](https://github.com/JoaoMuriloPO)
